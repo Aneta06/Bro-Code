@@ -30,6 +30,8 @@ public class StringAbout {
 
        // String result = name.replace('e', 'i'); // zmeni z puvodniho pismena na jiny, vsechy stejne pismena
 
+      // String result = name.concat("a"); // prida pismeno na konec slova
+
         System.out.println(result);
 
     }
