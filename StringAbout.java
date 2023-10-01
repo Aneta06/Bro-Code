@@ -10,6 +10,8 @@ public class StringAbout {
 
         String name = "Aneta";
 
+        //slovo resault si vymyslel jako novou promennou a to pak tisknul!!!!!!!!!!!!!!!!
+
 
         boolean result = name.equalsIgnoreCase("aneta"); // kdyz dam tohle, tak ignoruje male pismeno
                                                                      // a napise taky true a bere to tak ze to jestejny
@@ -33,6 +35,18 @@ public class StringAbout {
       // String result = name.concat("a"); // prida pismeno na konec slova
 
         System.out.println(result);
+
+        //dalsi priklad
+
+         String example = "In a dishwasher far, far away";
+
+        //zmenit slovo dishwasher na galaxy
+
+        // slovo example jsem si vymyslela
+
+        example = example.replace("dishwasher", "galaxy");
+
+        System.out.println(example);  // vysledek In a galaxy far, far away
 
     }
 }
