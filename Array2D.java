@@ -18,7 +18,7 @@ public class Array2D {
         cars[2][1] = "Lamborginy";
         cars[2][2] = "Tesla";
 
-        System.out.println(cars[1][0]); // vytiskne mi to y rady 1 (jako 2) polozku 0 ( jako prvni)
+        System.out.println(cars[1][0]); // vytiskne mi to z rady 1 (jako 2) polozku 0 ( jako prvni)
 
         for (int i = 0; i < cars.length; i++) {
             System.out.println();
